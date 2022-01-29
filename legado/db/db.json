@@ -1,0 +1,40 @@
+{
+  "associados": [
+    {
+      "id": 1,
+      "nome": "Ronei",
+      "dataNascimento": "1991-04-16",
+      "cpf": "000.000.00-00",
+      "sexo": "M"
+    },
+    {
+      "id": 2,
+      "nome": "Silas",
+      "dataNascimento": "1991-04-16",
+      "cpf": "000.000.00-01",
+      "sexo": "M"
+    },
+
+    {
+      "id": 3,
+      "nome": "Márcia",
+      "dataNascimento": "1980-03-16",
+      "cpf": "000.000.00-04",
+      "sexo": "F"
+    },
+    {
+      "id": 4,
+      "nome": "Julia",
+      "dataNascimento": "1980-03-16",
+      "cpf": "000.000.00-04",
+      "sexo": "F"
+    },
+    {
+      "id": 4,
+      "nome": "Pedro",
+      "dataNascimento": "1980-03-16",
+      "cpf": "000.000.00-05",
+      "sexo": "M"
+    }
+  ]
+}
