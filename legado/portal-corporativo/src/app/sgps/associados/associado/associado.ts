@@ -1,5 +1,5 @@
 export interface Associado {
-  id: number;
+  id?: number;
   nome: string;
   dataNascimento: string;
   sexo: string;
@@ -12,8 +12,8 @@ export interface Associado {
     statusPlano: string;
     tipoAcomodacao: string;
     abrangencia: string;
-    dataInicioVigencia: Date;
-    dataFimVigencia: Date;
+    dtInicioVigencia: Date;
+    dtFimVigencia?: Date;
   };
   endereco: {
     cep: string;
