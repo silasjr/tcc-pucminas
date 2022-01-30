@@ -4,9 +4,16 @@ import { HomeComponent } from './home.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { RouterModule } from '@angular/router';
 import { HomeRoutingModule } from './home.rounting.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [HomeComponent, SignInComponent],
-  imports: [CommonModule, RouterModule, HomeRoutingModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule,
+    HomeRoutingModule,
+  ],
 })
 export class HomeModule {}

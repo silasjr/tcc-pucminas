@@ -1,15 +1,20 @@
 export interface Associado {
   id: number;
-  tipoPlano: string;
-  statusPlano: string;
-  tipoAcomodacao: string;
-  abrangencia: string;
-  dataInicioVigencia: Date;
-  dataFimVigencia: Date;
   nome: string;
   dataNascimento: string;
   sexo: string;
   cpf: string;
+  email?: string;
+  telefone1?: string;
+  telefone2: string;
+  planoDeSaude: {
+    tipoPlano: string;
+    statusPlano: string;
+    tipoAcomodacao: string;
+    abrangencia: string;
+    dataInicioVigencia: Date;
+    dataFimVigencia: Date;
+  };
   endereco: {
     cep: string;
     uf: string;

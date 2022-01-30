@@ -25,9 +25,9 @@
 
     <tbody>
       <tr *ngFor="let associado of associados">
-        <td>{{ associado.tipoPlano }}</td>
-        <td>{{ associado.tipoAcomodacao }}</td>
-        <td>{{ associado.abrangencia }}</td>
+        <td>{{ associado.planoDeSaude.tipoPlano }}</td>
+        <td>{{ associado.planoDeSaude.tipoAcomodacao }}</td>
+        <td>{{ associado.planoDeSaude.abrangencia }}</td>
         <td>{{ associado.cpf }}</td>
         <td>{{ associado.nome }}</td>
         <td>{{ associado.dataNascimento }}</td>

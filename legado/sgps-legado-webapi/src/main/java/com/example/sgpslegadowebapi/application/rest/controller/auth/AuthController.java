@@ -7,16 +7,14 @@ import com.example.sgpslegadowebapi.infra.security.authentication.Token;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/auth")
 @AllArgsConstructor
+@CrossOrigin(origins = {"*"})
 public class AuthController {
 
     private final AuthenticationService authenticationService;

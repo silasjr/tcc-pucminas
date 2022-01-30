@@ -12,7 +12,7 @@ import static com.example.sgpslegadowebapi.infra.constants.SecurityConstants.SCH
 
 
 @Configuration
-@OpenAPIDefinition(info = @Info(title = "RMG School API", version = "1.0", description = "SGPS Application"))
+@OpenAPIDefinition(info = @Info(title = "SGPS Application", version = "1.0", description = "SGPS Application"))
 @SecurityScheme(name = SCHEME_BEARER_AUTH, scheme = "bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
 public class OpenAPIConfig {
 
