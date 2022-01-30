@@ -2,39 +2,78 @@
   "associados": [
     {
       "id": 1,
+      "tipoPlano": "INDIVIDUAL",
+      "statusPlano": "ATIVO",
+      "tipoAcomodacao": "APARTAMENTO",
+      "abrangencia": "MEDICO",
+      "dataInicioVigencia": "2021-04-04",
+      "dataFimVigencia": "2021-04-04",
       "nome": "Ronei",
       "dataNascimento": "1991-04-16",
       "cpf": "000.000.00-00",
-      "sexo": "M"
+      "sexo": "M",
+      "endereco": {
+        "cep": "69075-364",
+        "uf": "AM",
+        "municipio": {
+          "id": 1,
+          "nome": "Manaus"
+        },
+        "logradouro": "Beco Natal",
+        "bairro": "Mauazinho",
+        "numero": "31",
+        "complemento": "Prox. Comercial JJ"
+      }
     },
     {
-      "id": 2,
-      "nome": "Silas",
+      "id": 1,
+      "tipoPlano": "EMPRESARIAL",
+      "statusPlano": "ATIVO",
+      "tipoAcomodacao": "APARTAMENTO",
+      "abrangencia": "MEDICO",
+      "dataInicioVigencia": "2021-04-04",
+      "dataFimVigencia": "2021-04-04",
+      "nome": "Ronei",
       "dataNascimento": "1991-04-16",
-      "cpf": "000.000.00-01",
-      "sexo": "M"
-    },
-
-    {
-      "id": 3,
-      "nome": "Márcia",
-      "dataNascimento": "1980-03-16",
-      "cpf": "000.000.00-04",
-      "sexo": "F"
-    },
-    {
-      "id": 4,
-      "nome": "Julia",
-      "dataNascimento": "1980-03-16",
-      "cpf": "000.000.00-04",
-      "sexo": "F"
+      "cpf": "000.000.00-00",
+      "sexo": "M",
+      "endereco": {
+        "cep": "69075-364",
+        "uf": "AM",
+        "municipio": {
+          "id": 1,
+          "nome": "Manaus"
+        },
+        "logradouro": "Beco Natal",
+        "bairro": "Mauazinho",
+        "numero": "31",
+        "complemento": "Prox. Comercial JJ"
+      }
     },
     {
-      "id": 4,
-      "nome": "Pedro",
-      "dataNascimento": "1980-03-16",
-      "cpf": "000.000.00-05",
-      "sexo": "M"
+      "id": 1,
+      "tipoPlano": "INDIVIDUAL",
+      "statusPlano": "ATIVO",
+      "tipoAcomodacao": "APARTAMENTO",
+      "abrangencia": "MEDICO",
+      "dataInicioVigencia": "2021-04-04",
+      "dataFimVigencia": "2021-04-04",
+      "nome": "Ronei",
+      "dataNascimento": "1991-04-16",
+      "cpf": "000.000.00-00",
+      "sexo": "M",
+      "endereco": {
+        "cep": "69075-364",
+        "uf": "AM",
+        "municipio": {
+          "id": 1,
+          "nome": "Manaus"
+        },
+        "logradouro": "Beco Natal",
+        "bairro": "Mauazinho",
+        "numero": "31",
+        "complemento": "Prox. Comercial JJ"
+      }
     }
   ]
 }
