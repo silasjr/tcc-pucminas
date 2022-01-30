@@ -4,8 +4,9 @@ import { AssociadoListComponent } from './associado-list/associado-list.componen
 import { HttpClientModule } from '@angular/common/http';
 import { AssociadoModule } from './associado/associado.module';
 import { AssociadoListModule } from './associado-list/associado-list.module';
+import { AssociadoFormModule } from './associado-form/associado-form.module';
 
 @NgModule({
-  imports: [CommonModule, AssociadoListModule],
+  imports: [CommonModule, AssociadoListModule, AssociadoFormModule],
 })
 export class AssociadosModule {}

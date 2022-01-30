@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:5.7
+    command: --innodb-use-native-aio=0
+    container_name: goodies-shop-db
+    restart: always
+    tty: true
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_DATABASE: goodies_shop_db
+      MYSQL_ROOT_PASSWORD: root
+      MSYQL_USER: root
+    networks:
+      - goodies-shop-network
+    volumes:
+      - ./.docker/dbdata:/var/lib/mysql
+networks:
+  goodies-shop-network:
+    driver: bridge

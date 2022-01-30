@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AssociadoFormComponent } from './associados/associado-form/associado-form.component';
 import { AssociadoListComponent } from './associados/associado-list/associado-list.component';
 import { AssociadoListResolver } from './associados/associado-list/associado-list.resolver';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -17,6 +18,10 @@ const routes: Routes = [
         resolve: {
           associados: AssociadoListResolver,
         },
+      },
+      {
+        path: 'associados/add',
+        component: AssociadoFormComponent,
       },
       {
         path: 'dashboard',

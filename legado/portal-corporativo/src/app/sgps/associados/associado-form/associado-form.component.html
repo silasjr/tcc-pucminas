@@ -1,0 +1,214 @@
+<div class="row">
+  <div class="col-xs-12">
+    <form #f="ngForm">
+      <fieldset>
+        <legend>Dados Pessoais do Plano de Saúde</legend>
+        <div class="row">
+          <div class="col-sm-2 form-group">
+            <label for="tipoPlano">Tipo de Plano</label>
+            <select name="tipoPlano" id="tipoPlano" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="INDIVIDUAL">Individual</option>
+              <option value="EMPRESARIAL">Empresarial</option>
+            </select>
+          </div>
+          <div class="col-sm-2 form-group">
+            <label for="tipoAcomodacao">Tipo de Acomodação</label>
+            <select
+              name="tipoAcomodacao"
+              id="tipoAcomodacao"
+              class="form-control"
+            >
+              <option value="">-- Selecione --</option>
+              <option value="ENFERMARIA">Enfermaria</option>
+              <option value="APARTAMENTO">Apartamento</option>
+              <option value="VIP">VIP</option>
+            </select>
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="tipoPlano">Abrangência</label>
+            <select name="tipoPlano" id="tipoPlano" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="MEDICO">Medico</option>
+              <option value="MEDICO_ODONTOLOGICO">Medico-Odontologico</option>
+            </select>
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="dtInicioVigencia">Início da Vigência</label>
+            <input
+              type="date"
+              name="dtInicioVigencia"
+              id="dtInicioVigencia"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="dtFimVigencia">Fim da Vigência</label>
+            <input
+              type="date"
+              name="dtFimVigencia"
+              id="dtFimVigencia"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Pessoais do Associado</legend>
+        <div class="row">
+          <div class="col-sm-2 form-group">
+            <label for="cpf">CPF</label>
+            <input
+              type="text"
+              name="cpf"
+              id="cpf"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="col-sm-6 form-group">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input
+              type="date"
+              name="dataNascimento"
+              id="dataNascimento"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="M">Masculino</option>
+              <option value="F">Feminino</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2 form-group">
+            <label for="cep">CEP</label>
+            <input
+              type="text"
+              name="cep"
+              id="cep"
+              class="form-control"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="uf">UF</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="AM">Amazonas</option>
+              <option value="AC">Acre</option>
+            </select>
+          </div>
+
+          <div class="col-sm-4 form-group">
+            <label for="uf">Municipio</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+
+          <div class="col-sm-4 form-group">
+            <label for="uf">Bairro</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 form-group">
+            <label for="uf">Logradouro</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+
+          <div class="col-sm-4 form-group">
+            <label for="uf">Complemento</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="uf">Numero</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 form-group">
+            <label for="uf">E-mail</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+
+          <div class="col-sm-4 form-group">
+            <label for="uf">Telefone Principal</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+
+          <div class="col-sm-2 form-group">
+            <label for="uf">Telefone Secundário</label>
+            <select name="uf" id="uf" class="form-control">
+              <option value="">-- Selecione --</option>
+              <option value="1">Manaus</option>
+              <option value="2">Envira</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
