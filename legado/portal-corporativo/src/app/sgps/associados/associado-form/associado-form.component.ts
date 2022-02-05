@@ -67,7 +67,9 @@ export class AssociadoFormComponent implements OnInit {
 
     this.associadoService.salvar(associado).subscribe({
       next: () => {
-        console.log('value', associado);
+        form.reset();
+        this.selectedUF;
+        alert('Associado salvo com sucesso!');
       },
     });
   }
