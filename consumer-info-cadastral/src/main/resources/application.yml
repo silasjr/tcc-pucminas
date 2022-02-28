@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: consumer-info-cadastral
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+
